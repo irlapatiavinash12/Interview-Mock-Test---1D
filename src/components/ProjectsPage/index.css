@@ -1,0 +1,85 @@
+.home-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-section {
+  background-color: #f1f5f9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.website-logo {
+  margin-left: 5%;
+  height: 50px;
+  width: 130px;
+}
+
+.content-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.select-styling {
+  width: 30%;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  color: #475569;
+  outline: none;
+}
+
+.loader-styling {
+  align-self: center;
+}
+
+.projects-unorderedlist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.failure-container-styling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  height: 200;
+  width: 500px;
+}
+
+.failure-title-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}
+
+.failure-descript {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 400;
+  text-align: center;
+}
+
+.retry-button-styling {
+  background-color: #328af2;
+  height: 40px;
+  border-radius: 6px;
+  align-self: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
